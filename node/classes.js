@@ -1,4 +1,5 @@
 // declaring classes in js
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 
 class Something {
   constructor(name) {

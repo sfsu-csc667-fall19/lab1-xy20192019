@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+
 // Declaring with the function keyword
 function hi() {
   console.log('Say Hello');
