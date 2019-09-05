@@ -1,7 +1,7 @@
 // there are 3 basic ways to declare variables in js
 
 // Var, but don't use this one anymore
-var test =  3;
+var test =  3;//can be declear as many times 
 
 // let, is like var, but block scoped, and not allowed to re-declare
 let hello = 'world'; // Notice strings use single quotes
@@ -20,7 +20,30 @@ obj.a = 9;
 // For Practice
 
 // declare an object with an object as a property
+// const object cannot be reassinged
+const myObj = {
+    obj: {
+    }
+};
+
+// myObject = {}; //not allowes
+// myObject.a = 3; // allowed
+// myObject.a.b = 4; // allowed
+
 
 // delete a property
+myObject.a = null; // null is an object 
+myObject.a = undefine; // undefine mean it doesn't exist
+delete myObject.a;
 
-// change a property
+// // change a property
+
+// variable named veriable
+const variableName = 'a';
+myObject.a = 8;
+console.log(myObject[variableName]);
+
+//anything that is null or undefine will be evaluated as false
+if(myObject[variableName]) {
+    console.log(myObject[variableName]);
+}

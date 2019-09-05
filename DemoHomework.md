@@ -3,7 +3,7 @@
 - Checkout a new branch
   - `git checkout -b yourname-feature`
 - Change something and commit/push
-    - `git add filenam`
+    - `git add filename`
     - `git commit -m "A message"`
     - git push
 - Switch back to master
@@ -19,3 +19,6 @@
 - Open Pull request (on github)
 - Make a comment
 - Merge pull request to master
+
+- do not commit to master branch
+- git checkout -b brian-test
